@@ -11,7 +11,12 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
-  (function() {
+  
+
+
+
+}
+(function() {
 	var expand;
 	expand = function() {
 		var $input, $search;
@@ -181,6 +186,3 @@ $("select").each(function() {
 		$badge.html($count++);
 	});
 }.call(this));
-
-
-}
